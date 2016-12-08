@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Privypass Admin Tool</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/adminTool.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/validator.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <form method="POST" role="form" data-toggle="validator">
+        <div class="row heading">
+            <h2><img src="/img/logo.png" />Login</h2>
+        </div>
+        <div class="row table">
+            <div class="col-md-2"><b>UserName or Email:</b></div>
+            <div class="col-md-3"><input type="text" name="username" id="username" class="btn-block" required /></div>
+        </div>
+        <div class="row table">
+            <div class="col-md-2"><b>Password:</b></div>
+            <div class="col-md-3"><input type="password" name="password" id="password" class="btn-block" required /></div>
+        </div>
+        <div class="row table">
+            <div class="col-md-2">&nbsp;</div>
+            <div class="col-md-2"><input type="submit" value="Login" class="btn btn-block btn-success"/></div>
+        </div>
+    </form>
+</div>
+</body>
+</html>

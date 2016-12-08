@@ -1,0 +1,476 @@
+2016-11-01T13:56:27+01:00 INFO (6): Api request from users : {"customerId":"100000001190","bankId":"7997","loginParameters":[{"name":"USERNAME","value":"pcheeti4117"},{"name":"PASSWORD","value":"Malli@66"}]}
+2016-11-01T13:56:27+01:00 INFO (6): test finicity request format : Array
+2016-11-01T13:56:27+01:00 INFO (6): finicity url : https://api.finicity.com/aggregation/v2/partners/authentication
+2016-11-01T13:56:27+01:00 INFO (6): finiciity input data{"partnerId":"2445581517744","partnerSecret":"WbcAW60RX0CIm2eP7OHd"}
+2016-11-01T13:56:27+01:00 INFO (6): Raw Respomse from Finicity
+2016-11-01T13:56:27+01:00 INFO (6): Response for token :{"result":"error","error":null,"code":null}
+2016-11-01T14:57:55+01:00 INFO (6): Api request from users : {"customerId":"100000001190","bankId":"7997","loginParameters":[{"name":"USERNAME","value":"pcheeti4117"},{"name":"PASSWORD","value":"Malli@66"}]}
+2016-11-01T15:08:54+01:00 INFO (6): Api request from users : {"customerId":"100000001190","bankId":"7997","loginParameters":[{"name":"USERNAME","value":"pcheeti4117"},{"name":"PASSWORD","value":"Malli@66"}]}
+2016-11-01T15:08:55+01:00 INFO (6): test finicity request format : Array
+2016-11-01T15:08:55+01:00 INFO (6): finicity url : https://api.finicity.com/aggregation/v2/partners/authentication
+2016-11-01T15:08:55+01:00 INFO (6): finiciity input data{"partnerId":"2445581517744","partnerSecret":"WbcAW60RX0CIm2eP7OHd"}
+2016-11-01T15:08:55+01:00 INFO (6): Raw Respomse from Finicity
+2016-11-01T15:08:55+01:00 INFO (6): Response for token :{"result":"error","error":null,"code":null}
+2016-11-01T16:10:22+01:00 INFO (6): Api request from users : {"customerId":"100000000462","bankId":"7997","loginParameters":[{"name":"USERNAME","value":"pcheeti4117"},{"name":"PASSWORD","value":"Malli@66"}]}
+2016-11-01T16:10:22+01:00 INFO (6): array (
+  0 => 
+  array (
+    'accountId' => '11272479',
+    'accountNumber' => 'XXXX-XXXX-XXXX-4480',
+    'accountNickname' => 'XXXX-XXXX-XXXX-4480',
+    'loginId' => '1098865',
+    'customerId' => '100000000431',
+    'bankId' => '7997',
+    'username' => 'USERNAME:pcheeti4117',
+    'bankAgencyId' => '2',
+    'accountType' => '',
+    'currencyCode' => 'USD',
+    'active' => '1',
+    'statusMessage' => NULL,
+    'displayPosition' => '1',
+    'balanceAmount' => '-3312.15',
+    'balanceDate' => '0000-00-00',
+    'lastRefreshed' => '2016-10-28 08:20:06',
+    'metaData' => 'Ezq6jBPLJK74YEcpDV0-LNsPfqcyekwHfemX_niavf7DkTp4X_Mn6eiVD1opQDVVcai4Ji3U8Iy04z1tL2ovN6wtKizCKt0Apbigsi0KpO_0ASvUV4ebm_65ibw_6dkF20Db9ktK91gRZNhdeh4hJmd_H9qK-1ViyAqO_AY1Bs0kKwZpWijVHNokwGsGQgFk2tyO9GFQk92nbrp2ABKQgEaKOsc1dZQ2Ip9Fmmi-_2KJfin83FQAvH3u8WqfimHPOeH-Oy8addIU4iuueXjAlz80Ng9ZKDa3gEQgJH_ADJWgYc8DX0Yx18TJukwgIZethhHtWkbsswcHkgzf_UBOSw',
+    'finicity_customerId' => '100000000431',
+    'finicityId' => '6283138',
+    'count_customerId' => '0',
+  ),
+  1 => 
+  array (
+    'accountId' => '11328163',
+    'accountNumber' => '4480',
+    'accountNickname' => 'Citi Forward Card',
+    'loginId' => '1114582',
+    'customerId' => '100000001190',
+    'bankId' => '7997',
+    'username' => 'USERNAME:pcheeti4117',
+    'bankAgencyId' => '2',
+    'accountType' => 'CREDITCARD',
+    'currencyCode' => 'USD',
+    'active' => '1',
+    'statusMessage' => 'HTTP/1.1 401 Unauthorized
+Server: nginx
+Date: Mon, 24 Oct 2016 08:03:54 GMT
+Content-Type: text/plain
+Content-Length: 0
+Connection: keep-alive
+Keep-Alive: timeout=5
+WWW-Authenticate: Bearer realm="Intuit"
+intuit_tid: gw-acd8c529-c670-4fe5-b4d1-39ae5b02b6e0
+
+',
+    'displayPosition' => '1',
+    'balanceAmount' => '-3309.59',
+    'balanceDate' => '2016-10-20',
+    'lastRefreshed' => '2016-10-31 15:29:03',
+    'metaData' => 'J6n-A4kU6vH2shTGaUGHB77Y_HEyOBI_t9M73A5asMXDkTp4X_Mn6eiVD1opQDVVcai4Ji3U8Iy04z1tL2ovN6wtKizCKt0Apbigsi0KpO_0ASvUV4ebm_65ibw_6dkF20Db9ktK91gRZNhdeh4hJmd_H9qK-1ViyAqO_AY1Bs0kKwZpWijVHNokwGsGQgFk2tyO9GFQk92nbrp2ABKQgEaKOsc1dZQ2Ip9Fmmi-_2KJfin83FQAvH3u8WqfimHPOeH-Oy8addIU4iuueXjAlz80Ng9ZKDa3gEQgJH_ADJWuwKC3AtfHVy2DNPL6EPIS9yNataXU0m1WljVsYOu0Sg',
+    'finicity_customerId' => '0',
+    'finicityId' => '0',
+    'count_customerId' => '6727170',
+  ),
+  2 => 
+  array (
+    'accountId' => '11349497',
+    'accountNumber' => 'XXXX-XXXX-XXXX-4480',
+    'accountNickname' => 'XXXX-XXXX-XXXX-4480',
+    'loginId' => '1119908',
+    'customerId' => '100000000462',
+    'bankId' => '7997',
+    'username' => 'USERNAME:pcheeti4117',
+    'bankAgencyId' => '2',
+    'accountType' => '',
+    'currencyCode' => 'USD',
+    'active' => '1',
+    'statusMessage' => NULL,
+    'displayPosition' => '1',
+    'balanceAmount' => '-3319.04',
+    'balanceDate' => '0000-00-00',
+    'lastRefreshed' => '2016-11-01 14:59:25',
+    'metaData' => 'xNTTdUjnRZ142wSJO3Tk-ai2vT89V1Tt6Uihf9nUd3PDkTp4X_Mn6eiVD1opQDVVcai4Ji3U8Iy04z1tL2ovN6wtKizCKt0Apbigsi0KpO_0ASvUV4ebm_65ibw_6dkF20Db9ktK91gRZNhdeh4hJmd_H9qK-1ViyAqO_AY1Bs0kKwZpWijVHNokwGsGQgFk2tyO9GFQk92nbrp2ABKQgCLKExQkqdkKbswI1rEv_hnAaY8wDeTbAYmDbPXekbMytYpw5dUGmHB2_S6FpRYdfZmkrtBffqhte1ZNUDy6uxWj_FwYs8Rs6vw-ERqCE8CIPyv6gc7awnaQ7NRpmG1HJA',
+    'finicity_customerId' => '100000000462',
+    'finicityId' => '6747613',
+    'count_customerId' => '0',
+  ),
+)
+2016-11-01T16:10:47+01:00 INFO (6): Api request from users : {"customerId":"100000000462","bankId":"7997","loginParameters":[{"name":"USERNAME","value":"pcheeti4117"},{"name":"PASSWORD","value":"Malli@66"}]}
+2016-11-01T16:10:47+01:00 INFO (6): array (
+  0 => 
+  array (
+    'accountId' => '11272479',
+    'accountNumber' => 'XXXX-XXXX-XXXX-4480',
+    'accountNickname' => 'XXXX-XXXX-XXXX-4480',
+    'loginId' => '1098865',
+    'customerId' => '100000000431',
+    'bankId' => '7997',
+    'username' => 'USERNAME:pcheeti4117',
+    'bankAgencyId' => '2',
+    'accountType' => '',
+    'currencyCode' => 'USD',
+    'active' => '1',
+    'statusMessage' => NULL,
+    'displayPosition' => '1',
+    'balanceAmount' => '-3312.15',
+    'balanceDate' => '0000-00-00',
+    'lastRefreshed' => '2016-10-28 08:20:06',
+    'metaData' => 'Ezq6jBPLJK74YEcpDV0-LNsPfqcyekwHfemX_niavf7DkTp4X_Mn6eiVD1opQDVVcai4Ji3U8Iy04z1tL2ovN6wtKizCKt0Apbigsi0KpO_0ASvUV4ebm_65ibw_6dkF20Db9ktK91gRZNhdeh4hJmd_H9qK-1ViyAqO_AY1Bs0kKwZpWijVHNokwGsGQgFk2tyO9GFQk92nbrp2ABKQgEaKOsc1dZQ2Ip9Fmmi-_2KJfin83FQAvH3u8WqfimHPOeH-Oy8addIU4iuueXjAlz80Ng9ZKDa3gEQgJH_ADJWgYc8DX0Yx18TJukwgIZethhHtWkbsswcHkgzf_UBOSw',
+    'finicity_customerId' => '100000000431',
+    'finicityId' => '6283138',
+    'count_customerId' => '0',
+  ),
+  1 => 
+  array (
+    'accountId' => '11328163',
+    'accountNumber' => '4480',
+    'accountNickname' => 'Citi Forward Card',
+    'loginId' => '1114582',
+    'customerId' => '100000001190',
+    'bankId' => '7997',
+    'username' => 'USERNAME:pcheeti4117',
+    'bankAgencyId' => '2',
+    'accountType' => 'CREDITCARD',
+    'currencyCode' => 'USD',
+    'active' => '1',
+    'statusMessage' => 'HTTP/1.1 401 Unauthorized
+Server: nginx
+Date: Mon, 24 Oct 2016 08:03:54 GMT
+Content-Type: text/plain
+Content-Length: 0
+Connection: keep-alive
+Keep-Alive: timeout=5
+WWW-Authenticate: Bearer realm="Intuit"
+intuit_tid: gw-acd8c529-c670-4fe5-b4d1-39ae5b02b6e0
+
+',
+    'displayPosition' => '1',
+    'balanceAmount' => '-3309.59',
+    'balanceDate' => '2016-10-20',
+    'lastRefreshed' => '2016-10-31 15:29:03',
+    'metaData' => 'J6n-A4kU6vH2shTGaUGHB77Y_HEyOBI_t9M73A5asMXDkTp4X_Mn6eiVD1opQDVVcai4Ji3U8Iy04z1tL2ovN6wtKizCKt0Apbigsi0KpO_0ASvUV4ebm_65ibw_6dkF20Db9ktK91gRZNhdeh4hJmd_H9qK-1ViyAqO_AY1Bs0kKwZpWijVHNokwGsGQgFk2tyO9GFQk92nbrp2ABKQgEaKOsc1dZQ2Ip9Fmmi-_2KJfin83FQAvH3u8WqfimHPOeH-Oy8addIU4iuueXjAlz80Ng9ZKDa3gEQgJH_ADJWuwKC3AtfHVy2DNPL6EPIS9yNataXU0m1WljVsYOu0Sg',
+    'finicity_customerId' => '0',
+    'finicityId' => '0',
+    'count_customerId' => '6727170',
+  ),
+  2 => 
+  array (
+    'accountId' => '11349497',
+    'accountNumber' => 'XXXX-XXXX-XXXX-4480',
+    'accountNickname' => 'XXXX-XXXX-XXXX-4480',
+    'loginId' => '1119908',
+    'customerId' => '100000000462',
+    'bankId' => '7997',
+    'username' => 'USERNAME:pcheeti4117',
+    'bankAgencyId' => '2',
+    'accountType' => '',
+    'currencyCode' => 'USD',
+    'active' => '1',
+    'statusMessage' => NULL,
+    'displayPosition' => '1',
+    'balanceAmount' => '-3319.04',
+    'balanceDate' => '0000-00-00',
+    'lastRefreshed' => '2016-11-01 14:59:25',
+    'metaData' => 'xNTTdUjnRZ142wSJO3Tk-ai2vT89V1Tt6Uihf9nUd3PDkTp4X_Mn6eiVD1opQDVVcai4Ji3U8Iy04z1tL2ovN6wtKizCKt0Apbigsi0KpO_0ASvUV4ebm_65ibw_6dkF20Db9ktK91gRZNhdeh4hJmd_H9qK-1ViyAqO_AY1Bs0kKwZpWijVHNokwGsGQgFk2tyO9GFQk92nbrp2ABKQgCLKExQkqdkKbswI1rEv_hnAaY8wDeTbAYmDbPXekbMytYpw5dUGmHB2_S6FpRYdfZmkrtBffqhte1ZNUDy6uxWj_FwYs8Rs6vw-ERqCE8CIPyv6gc7awnaQ7NRpmG1HJA',
+    'finicity_customerId' => '100000000462',
+    'finicityId' => '6747613',
+    'count_customerId' => '0',
+  ),
+)
+2016-11-01T16:18:59+01:00 INFO (6): Api request from users : {"customerId":"100000000462","bankId":"7997","loginParameters":[{"name":"USERNAME","value":"pcheeti4117"},{"name":"PASSWORD","value":"Malli@66"}]}
+2016-11-01T16:18:59+01:00 INFO (6): array (
+  0 => 
+  array (
+    'accountId' => '11272479',
+    'accountNumber' => 'XXXX-XXXX-XXXX-4480',
+    'accountNickname' => 'XXXX-XXXX-XXXX-4480',
+    'loginId' => '1098865',
+    'customerId' => '100000000431',
+    'bankId' => '7997',
+    'username' => 'USERNAME:pcheeti4117',
+    'bankAgencyId' => '2',
+    'accountType' => '',
+    'currencyCode' => 'USD',
+    'active' => '1',
+    'statusMessage' => NULL,
+    'displayPosition' => '1',
+    'balanceAmount' => '-3312.15',
+    'balanceDate' => '0000-00-00',
+    'lastRefreshed' => '2016-10-28 08:20:06',
+    'metaData' => 'Ezq6jBPLJK74YEcpDV0-LNsPfqcyekwHfemX_niavf7DkTp4X_Mn6eiVD1opQDVVcai4Ji3U8Iy04z1tL2ovN6wtKizCKt0Apbigsi0KpO_0ASvUV4ebm_65ibw_6dkF20Db9ktK91gRZNhdeh4hJmd_H9qK-1ViyAqO_AY1Bs0kKwZpWijVHNokwGsGQgFk2tyO9GFQk92nbrp2ABKQgEaKOsc1dZQ2Ip9Fmmi-_2KJfin83FQAvH3u8WqfimHPOeH-Oy8addIU4iuueXjAlz80Ng9ZKDa3gEQgJH_ADJWgYc8DX0Yx18TJukwgIZethhHtWkbsswcHkgzf_UBOSw',
+    'finicity_customerId' => '100000000431',
+    'finicityId' => '6283138',
+    'count_customerId' => '0',
+  ),
+  1 => 
+  array (
+    'accountId' => '11328163',
+    'accountNumber' => '4480',
+    'accountNickname' => 'Citi Forward Card',
+    'loginId' => '1114582',
+    'customerId' => '100000001190',
+    'bankId' => '7997',
+    'username' => 'USERNAME:pcheeti4117',
+    'bankAgencyId' => '2',
+    'accountType' => 'CREDITCARD',
+    'currencyCode' => 'USD',
+    'active' => '1',
+    'statusMessage' => 'HTTP/1.1 401 Unauthorized
+Server: nginx
+Date: Mon, 24 Oct 2016 08:03:54 GMT
+Content-Type: text/plain
+Content-Length: 0
+Connection: keep-alive
+Keep-Alive: timeout=5
+WWW-Authenticate: Bearer realm="Intuit"
+intuit_tid: gw-acd8c529-c670-4fe5-b4d1-39ae5b02b6e0
+
+',
+    'displayPosition' => '1',
+    'balanceAmount' => '-3309.59',
+    'balanceDate' => '2016-10-20',
+    'lastRefreshed' => '2016-10-31 15:29:03',
+    'metaData' => 'J6n-A4kU6vH2shTGaUGHB77Y_HEyOBI_t9M73A5asMXDkTp4X_Mn6eiVD1opQDVVcai4Ji3U8Iy04z1tL2ovN6wtKizCKt0Apbigsi0KpO_0ASvUV4ebm_65ibw_6dkF20Db9ktK91gRZNhdeh4hJmd_H9qK-1ViyAqO_AY1Bs0kKwZpWijVHNokwGsGQgFk2tyO9GFQk92nbrp2ABKQgEaKOsc1dZQ2Ip9Fmmi-_2KJfin83FQAvH3u8WqfimHPOeH-Oy8addIU4iuueXjAlz80Ng9ZKDa3gEQgJH_ADJWuwKC3AtfHVy2DNPL6EPIS9yNataXU0m1WljVsYOu0Sg',
+    'finicity_customerId' => '0',
+    'finicityId' => '0',
+    'count_customerId' => '6727170',
+  ),
+)
+2016-11-01T16:32:51+01:00 INFO (6): Api request from users : {"customerId":"100000000462","bankId":"7997","loginParameters":[{"name":"USERNAME","value":"pcheeti4117"},{"name":"PASSWORD","value":"Malli@66"}]}
+2016-11-01T16:33:34+01:00 INFO (6): Api request from users : {"customerId":"100000000462","bankId":"7997","loginParameters":[{"name":"USERNAME","value":"pcheeti4117"},{"name":"PASSWORD","value":"Malli@66"}]}
+2016-11-01T18:48:27+01:00 INFO (6): Api request from users : {"customerId":"100000000462","bankId":"7997","loginParameters":[{"name":"USERNAME","value":"pcheeti4117"},{"name":"PASSWORD","value":"Malli@66"}]}
+2016-11-01T18:49:11+01:00 INFO (6): Api request from users : {"customerId":"100000000462","bankId":"7997","loginParameters":[{"name":"USERNAME","value":"pcheeti4117"},{"name":"PASSWORD","value":"Malli@66"}]}
+2016-11-01T18:49:43+01:00 INFO (6): Api request from users : {"customerId":"100000000462","bankId":"7997","loginParameters":[{"name":"USERNAME","value":"pcheeti4117"},{"name":"PASSWORD","value":"Malli@66"}]}
+2016-11-01T18:50:20+01:00 INFO (6): Api request from users : {"customerId":"100000000462","bankId":"7997","loginParameters":[{"name":"USERNAME","value":"pcheeti4117"},{"name":"PASSWORD","value":"Malli@66"}]}
+2016-11-03T13:42:59+01:00 INFO (6): search query :  CALL `proc_find_fulltext`(37.5482697,-121.9885719,10, 75, 70, '', 100000001190, '', '1,2,3,4,', '', 1, '', 0, 'fremont, CA', 1 )
+2016-11-03T14:01:19+01:00 INFO (6): search query :  CALL `proc_find_fulltext`(37.5482697,-121.9885719,10, 75, 70, '', 100000001190, '', '1,2,3,4,', '', 1, '', 0, 'fremont, CA', 1 )
+2016-11-03T14:04:43+01:00 INFO (6): search query :  CALL `proc_find_fulltext`(37.5482697,-121.9885719,10, 75, 70, '', 100000001190, '', '1,2,3,4,', '', 1, '', 0, 'fremont, CA', 1 )
+2016-11-03T14:07:46+01:00 INFO (6): search query :  CALL `proc_find_fulltext`(37.5482697,-121.9885719,10, 75, 70, '', 100000001190, '', '1,2,3,4,', '', 1, '', 0, 'fremont, CA', 1 )
+2016-11-03T14:12:11+01:00 INFO (6): search query :  CALL `proc_find_fulltext`(37.5482697,-121.9885719,10, 75, 70, '', 100000001190, '', '1,2,3,4,', '', 1, '', 0, 'fremont, CA', 1 )
+2016-11-03T14:19:30+01:00 INFO (6): search query :  CALL `proc_find_fulltext`(37.5482697,-121.9885719,10, 75, 70, '', 100000001190, '', '1,2,3,4,', '', 1, '', 0, 'fremont, CA', 1 )
+2016-11-03T15:31:38+01:00 INFO (6): search query :  CALL `proc_find_fulltext`(37.5482697,-121.9885719,10, 75, 70, '', 100000001190, '', '1,2,3,4,', '', 1, '', 0, 'fremont, CA', 1 )
+2016-11-03T19:16:19+01:00 INFO (6): search query :  CALL `proc_find_fulltext`(37.5482697,-121.9885719,10, 75, 70, '', 100000001190, '', '1,2,3,4,', '', 1, '', 0, 'fremont, CA', 1 )
+2016-11-03T19:19:41+01:00 INFO (6): search query :  CALL `proc_find_fulltext`(37.5482697,-121.9885719,10, 75, 70, '', 100000001190, '', '1,2,3,4,', '', 1, '', 0, 'fremont, CA', 1 )
+2016-11-04T18:31:40+01:00 INFO (6): Customer Input for post Review
+2016-11-04T19:39:44+01:00 INFO (6): search query :  CALL `proc_find_fulltext`(37.5482697,-121.9885719,10, 75, 70, '', 100000001190, '', '1,2,3,4,', '', 1, '', 0, 'fremont, CA', 1 )
+2016-11-04T19:49:09+01:00 INFO (6): search query :  CALL `proc_find_fulltext`(37.5482697,-121.9885719,10, 75, 70, '', 100000001190, '', '1,2,3,4,', '', 1, '', 0, 'fremont, CA', 1 )
+2016-11-04T20:13:40+01:00 INFO (6): Google location Error : cURL error 60: SSL certificate problem: unable to get local issuer certificate (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+2016-11-04T20:13:40+01:00 INFO (6): search query :  CALL `proc_find_fulltext`(37.5482697,-121.9885719,10, 75, 70, '', 100000001190, '', '1,2,3,4,', '', 1, '', 0, 'fremont, CA', 1 )
+2016-11-04T20:23:44+01:00 INFO (6): Google location Error : cURL error 60: SSL certificate problem: unable to get local issuer certificate (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+2016-11-04T20:23:44+01:00 INFO (6): search query :  CALL `proc_find_fulltext`(37.5482697,-121.9885719,10, 75, 70, '', 100000001190, '', '1,2,3,4,', '', 1, '', 0, 'fremont, CA', 1 )
+2016-11-04T20:47:35+01:00 INFO (6): Google location Error : cURL error 60: SSL certificate problem: unable to get local issuer certificate (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+2016-11-04T20:47:35+01:00 INFO (6): search query :  CALL `proc_find_fulltext`(37.5482697,-121.9885719,10, 75, 70, '', 100000001190, '', '1,2,3,4,', '', 1, '', 0, 'fremont, CA', 1 )
+2016-11-04T21:15:04+01:00 INFO (6): search query :  CALL `proc_find_fulltext`(37.5482697,-121.9885719,10, 75, 70, '', 100000001190, '', '1,2,3,4,', '', 1, '', 0, 'fremont, CA', 1 )
+2016-11-04T21:22:07+01:00 INFO (6): search query :  CALL `proc_find_fulltext`(37.5482697,-121.9885719,10, 75, 70, '', 100000001190, '', '1,2,3,4,', '', 1, '', 0, 'fremont, CA', 1 )
+2016-11-04T21:52:33+01:00 INFO (6): search query :  CALL `proc_find_fulltext`(37.5482697,-121.9885719,10, 75, 70, '', 100000001190, '', '1,2,3,4,', '', 1, '', 0, 'fremont, CA', 1 )
+2016-11-04T21:59:24+01:00 INFO (6): search query :  CALL `proc_find_fulltext`(37.5482697,-121.9885719,10, 75, 70, '', 100000001190, '', '1,2,3,4,', '', 1, '', 0, 'fremont, CA', 1 )
+2016-11-07T11:10:44+01:00 INFO (6): search query :  CALL `proc_find_fulltext`(37.5482697,-121.9885719,10, 75, 70, '', 100000001190, '', '1,2,3,4,', '', 1, '', 0, 'fremont, CA', 1 )
+2016-11-07T11:10:51+01:00 INFO (6): search query :  CALL `proc_find_fulltext`(37.5482697,-121.9885719,10, 75, 70, '', 100000001190, '', '1,2,3,4,', '', 1, '', 0, 'fremont, CA', 1 )
+2016-11-07T12:48:21+01:00 INFO (6): Api request from users : {"customerId":"100000001190","bankId":"7997","loginParameters":[{"name":"USERNAME","value":"pcheeti4117"},{"name":"PASSWORD","value":"Malli@66"}]}
+2016-11-07T12:48:49+01:00 INFO (6): Api request from users : {"customerId":"100000001190","bankId":"7997","loginParameters":[{"name":"USERNAME","value":"pcheeti4117"},{"name":"PASSWORD","value":"Malli@66"}]}
+2016-11-08T09:14:54+01:00 INFO (6): Api request from users : {"customerId":"100000001190","bankId":"7997","loginParameters":[{"name":"USERNAME","value":"pcheeti4117"},{"name":"PASSWORD","value":"Malli@66"}],
+ "code":"uI8fZ-Q6dvEz2ghpFnT84HpEIaxylXvAEW3-h_I6MsXxhJiIhvPvU891c5RkLWEf1YCtgZO6zPrhwideFit0vU7x-of8_1C_OWHdjL3YxUpO-2OeYYuQG6hxbSS3S0Rv1WlMw_wTNkfCJ6_AI1KbUXwh97bG3LeuDuSOU1xvC-8pV3wTf2KlpvteIKkn5tkcQ5kGMSMA2eOHnBZAN6lP_muNrajz1bYdEAOvmdwsqZe62cABV818BKbmNPpCHtFs9h68BwpIA5xmNK2wxHYDuTKX-jn5rcmmsfQiKZNP97M7F8-LSilRWqYQi_njtodtIovdx-Z53_LvyMfjwgtETQ"}
+2016-11-08T09:48:10+01:00 INFO (6): Api request from users : {"customerId":"100000000340","bankId":"4","loginParameters":[{"name":"usr_name","value":"FrankMurphy786"},{"name":"usr_password","value":"bibliotheque21"}]}
+2016-11-08T09:49:53+01:00 INFO (6): Api request from users : {"customerId":"100000000340","bankId":"4","loginParameters":[{"name":"usr_name","value":"FrankMurphy786"},{"name":"usr_password","value":"bibliotheque21"}]}
+2016-11-08T09:50:48+01:00 INFO (6): Api request from users : {"customerId":"100000000340","bankId":"4","loginParameters":[{"name":"usr_name","value":"FrankMurphy786"},{"name":"usr_password","value":"bibliotheque21"}]}
+2016-11-08T10:08:16+01:00 INFO (6): Api request from users : {"customerId":"100000000340","bankId":"4","loginParameters":[{"name":"usr_name","value":"FrankMurphy786"},{"name":"usr_password","value":"bibliotheque21"}]}
+2016-11-08T10:08:29+01:00 INFO (6): Api request from users : {"customerId":"100000000340","bankId":"4","loginParameters":[{"name":"usr_name","value":"FrankMurphy786"},{"name":"usr_password","value":"bibliotheque21"}]}
+2016-11-09T10:45:09+01:00 INFO (6): Api request from users : {"customerId":"100000000340","bankId":"14007","loginParameters":[{"name":"onlineID","value":"SabirIbrahim"},{"name":"passcode","value":"bibliotheque21"}]}
+2016-12-08T11:20:27+01:00 INFO (6): facebook login :{
+	"first_name": "Rajesh",
+	"last_name": "Jain",
+	"gender": "MALE",
+	"email": "keepsmiling412@yahoo.com",
+	"status": "VERIFIED",
+	"facebook_userid": "1008222519189880",
+	"device": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36",
+	"facebook_access_token": "EAAVuYtelcKIBAAkhYbKq62i5ZBgbUYqhqC2gc7l07wA9TZC4XSwv0pjOX8h6sCIjIrxJk0Wz5JPt3Cb5e3Dx1QPPRdgHZCCRolnWM58cibGhfCcpaCqERIUNDtyOf1g22ZCU8iuj878rJZCuwjt2k07s4s4D5RiadVl6bLbRVHAZDZD"
+}
+2016-12-08T11:54:12+01:00 INFO (6): facebook login :{
+	"first_name": "Rajesh",
+	"last_name": "Jain",
+	"gender": "MALE",
+	"email": "keepsmiling412@yahoo.com",
+	"status": "VERIFIED",
+	"facebook_userid": "1008222519189880",
+	"device": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36",
+	"facebook_access_token": "EAAVuYtelcKIBAAkhYbKq62i5ZBgbUYqhqC2gc7l07wA9TZC4XSwv0pjOX8h6sCIjIrxJk0Wz5JPt3Cb5e3Dx1QPPRdgHZCCRolnWM58cibGhfCcpaCqERIUNDtyOf1g22ZCU8iuj878rJZCuwjt2k07s4s4D5RiadVl6bLbRVHAZDZD"
+}
+2016-12-08T12:02:59+01:00 INFO (6): facebook login :{
+	"first_name": "Rajesh",
+	"last_name": "Jain",
+	"gender": "MALE",
+	"email": "keepsmiling412@yahoo.com",
+	"status": "VERIFIED",
+	"facebook_userid": "1008222519189880",
+	"device": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36",
+	"facebook_access_token": "EAAVuYtelcKIBAAkhYbKq62i5ZBgbUYqhqC2gc7l07wA9TZC4XSwv0pjOX8h6sCIjIrxJk0Wz5JPt3Cb5e3Dx1QPPRdgHZCCRolnWM58cibGhfCcpaCqERIUNDtyOf1g22ZCU8iuj878rJZCuwjt2k07s4s4D5RiadVl6bLbRVHAZDZD"
+}
+2016-12-08T12:13:25+01:00 INFO (6): facebook login :{
+	"first_name": "Rajesh",
+	"last_name": "Jain",
+	"gender": "MALE",
+	"email": "keepsmiling412@yahoo.com",
+	"status": "VERIFIED",
+	"facebook_userid": "1008222519189880",
+	"device": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36",
+	"facebook_access_token": "EAAVuYtelcKIBAAkhYbKq62i5ZBgbUYqhqC2gc7l07wA9TZC4XSwv0pjOX8h6sCIjIrxJk0Wz5JPt3Cb5e3Dx1QPPRdgHZCCRolnWM58cibGhfCcpaCqERIUNDtyOf1g22ZCU8iuj878rJZCuwjt2k07s4s4D5RiadVl6bLbRVHAZDZD"
+}
+2016-12-08T12:19:04+01:00 INFO (6): facebook login :{
+	"first_name": "Rajesh",
+	"last_name": "Jain",
+	"gender": "MALE",
+	"email": "keepsmiling412@yahoo.com",
+	"status": "VERIFIED",
+	"facebook_userid": "1008222519189880",
+	"device": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36",
+	"facebook_access_token": "EAAVuYtelcKIBAAkhYbKq62i5ZBgbUYqhqC2gc7l07wA9TZC4XSwv0pjOX8h6sCIjIrxJk0Wz5JPt3Cb5e3Dx1QPPRdgHZCCRolnWM58cibGhfCcpaCqERIUNDtyOf1g22ZCU8iuj878rJZCuwjt2k07s4s4D5RiadVl6bLbRVHAZDZD"
+}
+2016-12-08T12:19:36+01:00 INFO (6): facebook login :{
+	"first_name": "Rajesh",
+	"last_name": "Jain",
+	"gender": "MALE",
+	"email": "keepsmiling412@yahoo.com",
+	"status": "VERIFIED",
+	"facebook_userid": "1008222519189880",
+	"device": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36",
+	"facebook_access_token": "EAAVuYtelcKIBAAkhYbKq62i5ZBgbUYqhqC2gc7l07wA9TZC4XSwv0pjOX8h6sCIjIrxJk0Wz5JPt3Cb5e3Dx1QPPRdgHZCCRolnWM58cibGhfCcpaCqERIUNDtyOf1g22ZCU8iuj878rJZCuwjt2k07s4s4D5RiadVl6bLbRVHAZDZD"
+}
+2016-12-08T12:30:34+01:00 INFO (6): facebook login :{
+	"first_name": "Rajesh",
+	"last_name": "Jain",
+	"gender": "MALE",
+	"email": "keepsmiling412@yahoo.com",
+	"status": "VERIFIED",
+	"facebook_userid": "1008222519189880",
+	"device": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36",
+	"facebook_access_token": "EAAVuYtelcKIBAAkhYbKq62i5ZBgbUYqhqC2gc7l07wA9TZC4XSwv0pjOX8h6sCIjIrxJk0Wz5JPt3Cb5e3Dx1QPPRdgHZCCRolnWM58cibGhfCcpaCqERIUNDtyOf1g22ZCU8iuj878rJZCuwjt2k07s4s4D5RiadVl6bLbRVHAZDZD"
+}
+2016-12-08T12:33:53+01:00 INFO (6): facebook login :{
+	"first_name": "Rajesh",
+	"last_name": "Jain",
+	"gender": "MALE",
+	"email": "keepsmiling412@yahoo.com",
+	"status": "VERIFIED",
+	"facebook_userid": "1008222519189880",
+	"device": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36",
+	"facebook_access_token": "EAAVuYtelcKIBAAkhYbKq62i5ZBgbUYqhqC2gc7l07wA9TZC4XSwv0pjOX8h6sCIjIrxJk0Wz5JPt3Cb5e3Dx1QPPRdgHZCCRolnWM58cibGhfCcpaCqERIUNDtyOf1g22ZCU8iuj878rJZCuwjt2k07s4s4D5RiadVl6bLbRVHAZDZD"
+}
+2016-12-08T12:37:21+01:00 INFO (6): facebook login :{
+	"first_name": "Rajesh",
+	"last_name": "Jain",
+	"gender": "MALE",
+	"email": "keepsmiling412@yahoo.com",
+	"status": "VERIFIED",
+	"facebook_userid": "1008222519189880",
+	"device": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36",
+	"facebook_access_token": "EAAVuYtelcKIBAAkhYbKq62i5ZBgbUYqhqC2gc7l07wA9TZC4XSwv0pjOX8h6sCIjIrxJk0Wz5JPt3Cb5e3Dx1QPPRdgHZCCRolnWM58cibGhfCcpaCqERIUNDtyOf1g22ZCU8iuj878rJZCuwjt2k07s4s4D5RiadVl6bLbRVHAZDZD"
+}
+2016-12-08T12:43:41+01:00 INFO (6): facebook login :{
+	"first_name": "Rajesh",
+	"last_name": "Jain",
+	"gender": "MALE",
+	"email": "keepsmiling412@yahoo.com",
+	"status": "VERIFIED",
+	"facebook_userid": "1008222519189880",
+	"device": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36",
+	"facebook_access_token": "EAAVuYtelcKIBAAkhYbKq62i5ZBgbUYqhqC2gc7l07wA9TZC4XSwv0pjOX8h6sCIjIrxJk0Wz5JPt3Cb5e3Dx1QPPRdgHZCCRolnWM58cibGhfCcpaCqERIUNDtyOf1g22ZCU8iuj878rJZCuwjt2k07s4s4D5RiadVl6bLbRVHAZDZD"
+}
+2016-12-08T12:47:50+01:00 INFO (6): facebook login :{
+	"first_name": "Rajesh",
+	"last_name": "Jain",
+	"gender": "MALE",
+	"email": "keepsmiling412@yahoo.com",
+	"status": "VERIFIED",
+	"facebook_userid": "1008222519189880",
+	"device": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36",
+	"facebook_access_token": "EAAVuYtelcKIBAAkhYbKq62i5ZBgbUYqhqC2gc7l07wA9TZC4XSwv0pjOX8h6sCIjIrxJk0Wz5JPt3Cb5e3Dx1QPPRdgHZCCRolnWM58cibGhfCcpaCqERIUNDtyOf1g22ZCU8iuj878rJZCuwjt2k07s4s4D5RiadVl6bLbRVHAZDZD"
+}
+2016-12-08T12:53:25+01:00 INFO (6): facebook login :{
+	"first_name": "Rajesh",
+	"last_name": "Jain",
+	"gender": "MALE",
+	"email": "keepsmiling412@yahoo.com",
+	"status": "VERIFIED",
+	"facebook_userid": "1008222519189880",
+	"device": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36",
+	"facebook_access_token": "EAAVuYtelcKIBAAkhYbKq62i5ZBgbUYqhqC2gc7l07wA9TZC4XSwv0pjOX8h6sCIjIrxJk0Wz5JPt3Cb5e3Dx1QPPRdgHZCCRolnWM58cibGhfCcpaCqERIUNDtyOf1g22ZCU8iuj878rJZCuwjt2k07s4s4D5RiadVl6bLbRVHAZDZD"
+}
+2016-12-08T12:59:57+01:00 INFO (6): facebook login :{
+	"first_name": "Rajesh",
+	"last_name": "Jain",
+	"gender": "MALE",
+	"email": "keepsmiling412@yahoo.com",
+	"status": "VERIFIED",
+	"facebook_userid": "1008222519189880",
+	"device": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36",
+	"facebook_access_token": "EAAVuYtelcKIBAAkhYbKq62i5ZBgbUYqhqC2gc7l07wA9TZC4XSwv0pjOX8h6sCIjIrxJk0Wz5JPt3Cb5e3Dx1QPPRdgHZCCRolnWM58cibGhfCcpaCqERIUNDtyOf1g22ZCU8iuj878rJZCuwjt2k07s4s4D5RiadVl6bLbRVHAZDZD"
+}
+2016-12-08T13:06:36+01:00 INFO (6): facebook login :{
+	"first_name": "Rajesh",
+	"last_name": "Jain",
+	"gender": "MALE",
+	"email": "keepsmiling412@yahoo.com",
+	"status": "VERIFIED",
+	"facebook_userid": "1008222519189880",
+	"device": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36",
+	"facebook_access_token": "EAAVuYtelcKIBAAkhYbKq62i5ZBgbUYqhqC2gc7l07wA9TZC4XSwv0pjOX8h6sCIjIrxJk0Wz5JPt3Cb5e3Dx1QPPRdgHZCCRolnWM58cibGhfCcpaCqERIUNDtyOf1g22ZCU8iuj878rJZCuwjt2k07s4s4D5RiadVl6bLbRVHAZDZD"
+}
+2016-12-08T13:09:59+01:00 INFO (6): facebook login :{
+	"first_name": "Rajesh",
+	"last_name": "Jain",
+	"gender": "MALE",
+	"email": "keepsmiling412@yahoo.com",
+	"status": "VERIFIED",
+	"facebook_userid": "1008222519189880",
+	"device": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36",
+	"facebook_access_token": "EAAVuYtelcKIBAJtZAls1f5DMFIXIsTSUnGpPD4pNKnzTHiCwlNSrTKsb29U9ejSjf4xT1NuDSL1SVmyvlyDV1KdENENZBotrPuUlYCNhQGkejadwKrUTd7AjRr58xWf5pK6ZCZBPZCjT4v3CyaqnRGOu29vm1s0dZA27feFoeiowZDZD"
+}
+2016-12-08T13:11:13+01:00 INFO (6): facebook login :{
+	"first_name": "Rajesh",
+	"last_name": "Jain",
+	"gender": "MALE",
+	"email": "keepsmiling412@yahoo.com",
+	"status": "VERIFIED",
+	"facebook_userid": "1008222519189880",
+	"device": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36",
+	"facebook_access_token": "EAAVuYtelcKIBAJtZAls1f5DMFIXIsTSUnGpPD4pNKnzTHiCwlNSrTKsb29U9ejSjf4xT1NuDSL1SVmyvlyDV1KdENENZBotrPuUlYCNhQGkejadwKrUTd7AjRr58xWf5pK6ZCZBPZCjT4v3CyaqnRGOu29vm1s0dZA27feFoeiowZDZD"
+}
+2016-12-08T13:21:00+01:00 INFO (6): facebook login :{
+	"first_name": "Rajesh",
+	"last_name": "Jain",
+	"gender": "MALE",
+	"email": "keepsmiling412@yahoo.com",
+	"status": "VERIFIED",
+	"facebook_userid": "1008222519189880",
+	"device": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36",
+	"facebook_access_token": "EAAVuYtelcKIBAJtZAls1f5DMFIXIsTSUnGpPD4pNKnzTHiCwlNSrTKsb29U9ejSjf4xT1NuDSL1SVmyvlyDV1KdENENZBotrPuUlYCNhQGkejadwKrUTd7AjRr58xWf5pK6ZCZBPZCjT4v3CyaqnRGOu29vm1s0dZA27feFoeiowZDZD"
+}
+2016-12-08T13:37:47+01:00 INFO (6): facebook login :{
+	"first_name": "Rajesh",
+	"last_name": "Jain",
+	"gender": "MALE",
+	"email": "keepsmiling412@yahoo.com",
+	"status": "VERIFIED",
+	"facebook_userid": "1008222519189880",
+	"device": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36",
+	"facebook_access_token": "EAAVuYtelcKIBAJtZAls1f5DMFIXIsTSUnGpPD4pNKnzTHiCwlNSrTKsb29U9ejSjf4xT1NuDSL1SVmyvlyDV1KdENENZBotrPuUlYCNhQGkejadwKrUTd7AjRr58xWf5pK6ZCZBPZCjT4v3CyaqnRGOu29vm1s0dZA27feFoeiowZDZD"
+}
+2016-12-08T13:41:41+01:00 INFO (6): facebook login :{
+	"first_name": "Rajesh",
+	"last_name": "Jain",
+	"gender": "MALE",
+	"email": "keepsmiling412@yahoo.com",
+	"status": "VERIFIED",
+	"facebook_userid": "1008222519189880",
+	"device": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36",
+	"facebook_access_token": "EAAVuYtelcKIBAJtZAls1f5DMFIXIsTSUnGpPD4pNKnzTHiCwlNSrTKsb29U9ejSjf4xT1NuDSL1SVmyvlyDV1KdENENZBotrPuUlYCNhQGkejadwKrUTd7AjRr58xWf5pK6ZCZBPZCjT4v3CyaqnRGOu29vm1s0dZA27feFoeiowZDZD"
+}
+2016-12-08T13:41:56+01:00 INFO (6): facebook login :{
+	"first_name": "Rajesh",
+	"last_name": "Jain",
+	"gender": "MALE",
+	"email": "keepsmiling412@yahoo.com",
+	"status": "VERIFIED",
+	"facebook_userid": "1008222519189880",
+	"device": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36",
+	"facebook_access_token": "EAAVuYtelcKIBAJtZAls1f5DMFIXIsTSUnGpPD4pNKnzTHiCwlNSrTKsb29U9ejSjf4xT1NuDSL1SVmyvlyDV1KdENENZBotrPuUlYCNhQGkejadwKrUTd7AjRr58xWf5pK6ZCZBPZCjT4v3CyaqnRGOu29vm1s0dZA27feFoeiowZDZD"
+}

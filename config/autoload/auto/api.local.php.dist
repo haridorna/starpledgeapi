@@ -1,0 +1,13 @@
+<?php
+/**
+ * Project: PrivyPASS.com
+ * Author: Hari Dornala
+ * Date: 10/8/14
+ * Time: 6:11 PM
+ */
+
+return array(
+    'mandrill' => array(
+        'api_key' => 'vptBqnqfNG1LBbCMHltJ1Q',
+    ),
+);

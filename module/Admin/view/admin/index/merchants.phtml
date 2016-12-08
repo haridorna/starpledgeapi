@@ -1,0 +1,28 @@
+
+
+<div class="container" style="margin-top: 55px;">
+    <h2>Merchant List</h2>
+    <table class="table table-bordered table-hover">
+        <thead>
+        <tr>
+            <th>Merchant Name</th>
+            <th>Registration Date</th>
+            <th>Status</th>
+        </tr>
+        </thead>
+
+        <?php foreach ($this->merchants as $merchant) { ?>
+        <tr>
+            <td><?php echo $merchant['business_name'] ?></td>
+            <td><?php echo date('m/d/Y', strtotime($merchant['registration_date'])) ?></td>
+            <td><?php echo $merchant['status'] ?></td>
+        </tr>
+
+        <?php } ?>
+
+    </table>
+
+    <?php echo $this->paginator ?>
+
+</div>
+

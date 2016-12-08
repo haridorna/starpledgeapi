@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Privypass Admin Tool</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-dialog.css" rel="stylesheet">
+    <link href="/css/adminTool.css" rel="stylesheet" type="text/css">
+    <link href="/css/jquery.multiselect.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="/js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap-dialog.js"></script>
+    <script type="text/javascript" src="/js/adminTool.js"></script>
+    <script type="text/javascript" src="/js/jquery.multiselect.js"></script>
+</head>
+<body>
+
+<header class="navbar navbar-fixed-top primary" role="navigation">
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand"><img src="/img/logo.png" style="margin-top: -22px;"/></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mapping Tools <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/admin">Description Mapper</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/admin/index/wrong-mapping">Wrong Mapping</a></li>
+                            <li><a href="/admin/index/wrong-location">Wrong Location</a></li>
+                            <li><a href="/admin/index/hide-business">Hide Business</a></li>
+                            <li><a href="/admin/index/never-show-business">Never show Business</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/admin/index/scripts">Scripts</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Users <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/admin/merchants">Merchants</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/admin/customers">Customers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><?php if ($this->user) { ?>
+                    <li><a href="#">Hello <?php echo $user['firstname']  ?></a></li>
+                    <li><span class="label label-info"><a href="/admin/logout" style="margin-right: 10px;">Logout</a></span></li>
+                    <?php } else { ?>
+                    <li><a href="/admin/login">Login</a></li>
+                    <?php } ?></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+</header>
+
+
+<!--<ul class="nav navbar-nav">-->
+<!--    <li class="active nav-item" data-item="restaurants"><a href="#">Restaurants</a></li>-->
+<!--    <li class="nav-item" data-item="others"><a href="#">Others</a></li>-->
+<!--    <li class="nav-item" data-item="no-category"><a href="#">No Category</a></li>-->
+<!--    <li class="nav-item" data-item="no-google-place"><a href="#">No Google Place</a></li>-->
+<!--    <li class="nav-link" data-link="/admin/merchants"><a href="#">Merchants</a></li>-->
+<!--    <li class="nav-link" data-item="/admin/customers"><a href="#">Customers</a></li>-->
+<!--</ul>-->
+
+
+<?php echo $this->content; ?>
+
+</body>
+</html>

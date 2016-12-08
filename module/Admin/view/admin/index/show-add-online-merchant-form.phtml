@@ -1,0 +1,178 @@
+<h3>Merchant Entry Form</h3>
+<form class="form-horizontal" id="merchant-form" role="form">
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="form-group">
+                <label for="name" class="col-md-4 control-label">Name:</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Name of Merchant">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="form-group">
+                <label for="url" class="col-md-4 control-label">Url:</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" id="url" name="url" placeholder="Url">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="form-group">
+                <label for="rating" class="col-md-4 control-label">Rating:</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" id="rating" name="rating" placeholder="Rating">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="form-group">
+                <label for="review_count" class="col-md-4 control-label">Review Count:</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" id="review_count" name="review_count" placeholder="Review Count">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="form-group">
+                <label for="image" class="col-md-4 control-label">Image:</label>
+                <div class="col-md-8">
+                    <input type="file" class="form-control" id="image" name="image" placeholder="Image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="form-group">
+                <label for="snippet_text" class="col-md-4 control-label">Snippet Text:</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" id="snippet_text" name="snippet_text" placeholder="Snippet Text">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="form-group">
+                <label for="display_phone" class="col-md-4 control-label">Phone:</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" id="display_phone" name="display_phone" placeholder="Phone">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="form-group">
+                <label for="city" class="col-md-4 control-label">City:</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" id="city" name="city" placeholder="City">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="form-group">
+                <label for="about_business" class="col-md-4 control-label">About:</label>
+                <div class="col-md-8">
+                    <textarea class="form-control" id="about_business" name="about_business" cols="50" rows="6"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="form-group">
+                <label for="working_hours" class="col-md-4 control-label">Working Hours:</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" id="working_hours" name="working_hours" value="24 HOurs">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="form-group">
+                <label for="hours_display" class="col-md-4 control-label">Hours Display:</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" id="hours_display" name="hours_display" value="24 HOurs">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="form-group">
+                <label for="additional_info" class="col-md-4 control-label">Additional Info:</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" id="additional_info" name="additional_info" placeholder="Additional Info">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="form-group">
+                <label for="dollar_range" class="col-md-4 control-label">Dollar Range:</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" id="dollar_range" name="dollar_range" placeholder="Dollar Range">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <input type="hidden" name="category[]" value="<?php echo $this->defaultCategoryId ?>" />
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="form-group">
+                <label for="inputEmail" class="col-md-4 control-label">Category 1:</label>
+                <div class="col-md-8">
+                    <select class="form-control" id="category2" name="category[]">
+                        <option value="">Please select Category</option>
+                        <?php foreach ($this->categories as $category) { ?>
+                            <option value="<?php echo $category['id'] ?>"><?php echo $category['disp_name'] ?></option>
+                        <?php } ?>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="form-group">
+                <label for="inputEmail" class="col-md-4 control-label">Category 2:</label>
+                <div class="col-md-8">
+                    <select class="form-control" id="category3" name="category[]">
+                        <option value="">Please select Category</option>
+                        <?php foreach ($this->categories as $category) { ?>
+                            <option value="<?php echo $category['id'] ?>"><?php echo $category['disp_name'] ?></option>
+                        <?php } ?>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="form-group">
+                <div class="col-md-2 col-sm-offset-6">
+                    <button type="button" id="save-merchant" class="btn btn-success">Save</button>
+                </div>
+               <div class="col-md-2">
+                   <button type="button" id="cancel-merchant" class="btn btn-danger">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

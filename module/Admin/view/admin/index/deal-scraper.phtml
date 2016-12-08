@@ -1,0 +1,77 @@
+<h1>Deal Scraper</h1>
+<div class="row table">
+    <form method="POST" id="fetch-form">
+        <div class="col-xs-12">
+            <div class="col-xs-3">
+                <select id="gm_id" class="form-control">
+                    <option value="">Select Merchant</option>
+                    <?php foreach ($this->merchants as $merchant) { ?>
+                        <option value="<?php echo $merchant['id'] .'|'. $merchant['yelp_id'] ?>"><?php echo $merchant['name'] ?></option>
+                    <?php } ?>
+                </select>
+                <input type="hidden" name="global_merchant_id" id="global_merchant_id" value="" />
+            </div>
+            <div class="col-xs-6">
+                <input type="text" name="url" class="form-control" />
+            </div>
+            <div class="col-xs-2">
+                <input type="button" id="fetch-button" class="btn btn-success" value="Fetch" />
+            </div>
+        </div>
+    </form>
+    <div>&nbsp;</div>
+
+
+    <div class="row table">
+    <div class="col-xs-8" id="deal-data">
+        <form action="/admin/index/save-deal" method="POST" >
+            <input type="text" class="form-control" id="save_global_erchant_id" name="save_global_merchant_id" value="" /><br>
+            <input type="text" class="form-control" id="title" name="title" value="" /><br>
+            <input type="text" class="form-control" id="image" name="image" value=""  placeholder="Image Url"/><br>
+            <input type="text" class="form-control" id="retail_price" name="retail_price" value="" /><br>
+            <input type="text" class="form-control" id="discount" name="discount" value="" /><br>
+            <textarea name="detail" id="detail" rows="8" cols="80" class="input-lg"></textarea><br>
+            <div class="col-xs-12">
+                <input type="submit" class="btn btn-success" value="Save Deal" />
+            </div>
+        </form>
+    </div>
+    </div>
+</div>
+<div class="row table">
+    <iframe id="myframe" src="" style="border-color:#fff; width: 100%; height: 1000px;"></iframe>
+</div>
+<script type="text/javascript">
+    $(function(){
+        $('#deal-data').hide();
+        $('#gm_id').change(function() {
+            var parts = $(this).val().split('|');
+
+            if (parts.length < 2) {
+                $('#myframe').attr('src', 'http://api.privpass.com/admin/index/dummy')
+                return;
+            }
+            $('#deal-data').hide();
+            $('#global_merchant_id').val(parts[0]);
+            $('#myframe').attr('src', 'http://www.yelp.com/biz/' + parts[1])
+        });
+
+        $('#fetch-button').click(function() {
+            $.ajax({
+                url: '/admin/index/deal-scraper',
+                method: 'POST',
+                data: $('#fetch-form').serialize(),
+                dataType: 'json',
+                success: function(data) {
+                    $('#deal-data').show();
+                    $('#save_global_erchant_id').val(data.global_merchant_id);
+                    $('#title').val(data.title);
+                    $('#retail_price').val(data.retail_price);
+                    $('#discount').val(data.discount);
+                    $('#detail').val(data.detail);
+
+                }
+            })
+        });
+    });
+</script>

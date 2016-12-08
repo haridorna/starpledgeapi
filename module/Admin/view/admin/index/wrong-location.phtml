@@ -1,0 +1,27 @@
+
+
+<div class="container" style="margin-top: 55px;">
+    <h2>Wrong Mapping List</h2>
+    <table class="table table-bordered table-hover">
+        <thead>
+        <tr>
+            <th>Transaction Id</th>
+            <th>Global Merchant Id</th>
+            <th>Mapping Flag</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+
+        <?php foreach ($this->wrongMapping as $map) { ?>
+            <tr>
+                <td><?php echo $map['transaction_id'] ?></td>
+                <td><?php echo $map['global_merchant_id'] ?></td>
+                <td><?php echo $map['mapping_flag'] ?></td>
+                <td></td>
+            </tr>
+
+        <?php } ?>
+
+    </table>
+
+</div>
